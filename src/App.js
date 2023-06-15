@@ -6,7 +6,6 @@ import AddTopicForm from './Components/AddTopicForm'
 import Editor from './Components/Editor'
 import Blog from './Components/Blog';
 
-
 const App = () => {
   const undo_check = useRef(2);
   const [viewblog, setviewblog] = useState({
