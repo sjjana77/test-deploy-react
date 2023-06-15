@@ -1,38 +1,262 @@
-.App {
-  text-align: center;
+.blog .overall{
+    width: 100%;
+    position: relative;
+    left: 19%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 10px;
+  padding: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+  font-size: 30px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+#goback{
+  cursor: pointer;
+  border: none;
   color: white;
+  background-color: #997855;
+  width: 90px;
+  height: 36px;
+  position: relative;
+  left: 95%;
+  position: relative;
+  left: -109px;
+  top: 59px;
+}
+#editor > div > button:nth-child(13){
+  cursor: pointer;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #d97e1d;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 24px;
+}
+button{
+  border-radius: 6px;
+}
+.blog-btn{
+  top: -66px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #d97e1d;
+  width: 90px;
+  height: 36px;
+  position: relative;
+  left: 92%;
+}
+#add_form > div > form > button{
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #d97e1d; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 24px;
+
+}
+#editor > div > label:nth-child(6){
+  top: -61px;
+  position: relative;
+}
+#upload_img{
+  position: relative;
+  left: 7px;
+}
+#editor > div > label:nth-child(2) > select{
+  position: relative;
+  left: 10%;
+}
+#editor > div > textarea{
+  width: 391px;
+  height: 114px;
+  position: relative;
+  left: 6%;
+}
+#add_form > div > form > label:nth-child(1) > input[type=text]{
+  left: 21%;
+  position: relative;
+}
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-.App-link {
-  color: #61dafb;
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 44%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#root{
+  width: 1180px;
+}
+#close_addform{
+  cursor: pointer;
+  float: right;
+  position: relative;
+  font-size: 12px;
+  border-radius: 8px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 16px;
+}
+#close_editor{
+  cursor: pointer;
+  float: right;
+  position: relative;
+  font-size: 12px;
+  border-radius: 8px;
+  background-color: #000000;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 16px;
+  position: relative;
+}
+/* #editor{
+  background-color: white;
+  left: 310px;
+  position: relative;
+  top: -621px;
+  width: 387px;
+  padding: 16px;
+  height: 302px;
+  border: 1px solid black;
+} */
+/* #add_form{
+  background-color: white;
+  left: 279px;
+  position: relative;
+  top: -610px;
+  width: 387px;
+  padding: 16px;
+  height: 231px;
+  border: 1px solid black;
+} */
+.yellow{
+  color: yellow;
+  border: 1px solid yellow;
+  border-radius: 100px;
+}
+.red{
+  color: red;
+  border: 1px solid red;
+  border-radius: 100px;
+}
+.keywords{
+  position: relative;
+  top: 5px;
+  margin-right: 12px;
+  padding: 6px;
+}
+.topics_keywords{
+  padding-bottom: 9px;
+  position: relative;
+  top: -15px;
+}
+
+.delete-btn{
+  cursor: pointer;
+  position: relative;
+  left: 121%;
+  border: none;
+  color: white;
+  background-color: #d97e1d;
+  width: 80px;
+  height: 36px;
+}
+.write-btn{
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #d97e1d;
+  width: 90px;
+  height: 36px;
+  position: relative;
+  left: 95%;
+}
+.recommend{
+  font-weight: bold;
+}
+.topics_heading{
+  font-weight: bold;
+}
+.hidden{
+  display: none;
+}
+
+.selected-category{
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: #d97e1d;
+}
+.categories span{
+  font-size: 16px;
+  padding-left: 78px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.categories button{
+  cursor: pointer;
+  left: 19%;
+  position: relative;
+  border: none;
+  color: white;
+  background-color: #d97e1d;
+  width: 94px;
+  height: 36px;
+}
+.overall{
+  width: 60%;
+  position: relative;
+  left: 19%;
 }
