@@ -13,10 +13,10 @@ const Topics = (category_id, category_name, category_topics,deleteTopic,setcurre
     return (
       <div className='topics'><span className='recommend'>Recommended Topics</span> <br /><br />
       {
-        category_topics.map((categoryy) => {
+        category_topics.map((categoryy,ii) => {
           
           return(
-            <div id={categoryy.id} className='topics'>
+            <div id={categoryy.id} className={'topics tid'+ii}>
               <div id={categoryy.id} className='topics_heading'>{categoryy.name}</div><br />
               <span className='delete-span'><button className='delete-btn' onClick={() => deleteTopic(categoryy.id)}>Delete &gt;</button></span>
               <span className='write-span'><button onClick={()=>

@@ -30,10 +30,10 @@ const App = () => {
       name: 'Custom',
       topics: [
         { 
-          id: 1, name: 'Topic 1', keywords: ['keyword1', 'keyword2'], tone:'', content:'', img_path:''
+          id: 1, name: 'The Best Travel Destinations for Adventure Enthusiasts: Exploring Nature Wonders', keywords: ['adventure', 'travel','nature ','exploration','hiking','outdoor activities'], tone:'', content:'', img_path:''
         },
         { 
-          id: 2, name: 'Topic 2', keywords: ['keyword3', 'keyword4'], tone:'', content:'', img_path:''
+          id: 2, name: 'Patagonia is a paradise for adventure travelers, with its dramatic mountains', keywords: ['Patagonia', 'Argentina','Chile','lakes'], tone:'', content:'', img_path:''
         },
       ]
     },
@@ -42,10 +42,10 @@ const App = () => {
       name: 'ICP',
       topics: [
         { 
-          id: 3, name: 'Topic 3', keywords: ['keyword5', 'keyword6'], tone:'', content:'', img_path:''
+          id: 3, name: 'ICPs are responsible for creating a wide range of digital content that users interests and preferences', keywords: ['Content', 'Curation','Creation'], tone:'', content:'', img_path:''
         },
         { 
-          id: 4, name: 'Topic 4', keywords: ['keyword7', 'keyword8'], tone:'', content:'', img_path:''
+          id: 4, name: 'ICPs excel at distributing digital content across various platforms', keywords: ['Distribution', 'Accessibility','CDNs','Fast'], tone:'', content:'', img_path:''
         },
       ]
     },
@@ -54,10 +54,10 @@ const App = () => {
       name: 'Mission',
       topics: [
         { 
-          id: 5, name: 'Topic 5', keywords: ['keyword9', 'keyword10'], tone:'', content:'', img_path:''
+          id: 5, name: 'ICPs understand the importance of user engagement and strive to create interactive experiences', keywords: ['Copyright', 'Protection','Instrumental','digital','innovation'], tone:'', content:'', img_path:''
         },
         { 
-          id: 6, name: 'Topic 6', keywords: ['keyword11', 'keyword12'], tone:'', content:'', img_path:''
+          id: 6, name: 'ICPs often rely on revenue streams such as advertising, subscriptions, or partnerships to support their content delivery efforts', keywords: ['Monetization', 'Revenue','high-quality'], tone:'', content:'', img_path:''
         },
       ]
     },
@@ -66,10 +66,10 @@ const App = () => {
       name: 'Product',
       topics: [
         { 
-          id: 7, name: 'Topic 7', keywords: ['keyword13', 'keyword14'], tone:'', content:'', img_path:''
+          id: 7, name: 'Gone are the days of traditional refrigerators. Smart refrigerators are equipped with advanced features', keywords: ['Smart Refrigerators', 'Intelligent Cooking Assistants'], tone:'', content:'', img_path:''
         },
         { 
-          id: 8, name: 'Topic 8', keywords: ['keyword15', 'keyword16'], tone:'', content:'', img_path:''
+          id: 8, name: 'Wi-Fi-enabled ovens and ranges bring a new level of convenience and control to your cooking process.', keywords: ['Wi-Fi-Enabled Ovens ', 'Smart Coffee Makers'], tone:'', content:'', img_path:''
         },
       ]
     }
@@ -91,29 +91,29 @@ const App = () => {
     {
       name: 'Custom',
       topics: [
-        { id: 1, name: 'Topic 1', keywords: ['keyword1', 'keyword2'] },
-        { id: 2, name: 'Topic 2', keywords: ['keyword3', 'keyword4'] },
+        { id: 1, name: 'The Best Travel Destinations for Adventure Enthusiasts: Exploring Nature Wonders', keywords: ['adventure', 'travel','nature ','exploration','hiking','outdoor activities'] },
+        { id: 2, name: 'Patagonia is a paradise for adventure travelers, with its dramatic mountains', keywords: ['Patagonia', 'Argentina','Chile','lakes'] },
       ],
     },
     {
       name: 'ICP',
       topics: [
-        { id: 3, name: 'Topic 3', keywords: ['keyword5', 'keyword6'] },
-        { id: 4, name: 'Topic 4', keywords: ['keyword7', 'keyword8'] },
+        { id: 3, name: 'ICPs are responsible for creating a wide range of digital content that users interests and preferences', keywords: ['Content', 'Curation','Creation'] },
+        { id: 4, name: 'ICPs excel at distributing digital content across various platforms', keywords: ['Distribution', 'Accessibility','CDNs','Fast'] },
       ],
     },
     {
       name: 'Mission',
       topics: [
-        { id: 5, name: 'Topic 3', keywords: ['keyword9', 'keyword10'] },
-        { id: 6, name: 'Topic 4', keywords: ['keyword11', 'keyword12'] },
+        { id: 5, name: 'ICPs understand the importance of user engagement and strive to create interactive experiences', keywords: ['Copyright', 'Protection','Instrumental','digital','innovation'] },
+        { id: 6, name: 'ICPs often rely on revenue streams such as advertising, subscriptions, or partnerships to support their content delivery efforts.', keywords: ['Monetization', 'Revenue','high-quality'] },
       ],
     },
     {
       name: 'Product',
       topics: [
-        { id: 7, name: 'Topic 3', keywords: ['keyword13', 'keyword14'] },
-        { id: 8, name: 'Topic 4', keywords: ['keyword15', 'keyword16'] },
+        { id: 7, name: 'Gone are the days of traditional refrigerators. Smart refrigerators are equipped with advanced features', keywords: ['Smart Refrigerators', 'Intelligent Cooking Assistants'] },
+        { id: 8, name: 'Wi-Fi-enabled ovens and ranges bring a new level of convenience and control to your cooking process.', keywords: ['Wi-Fi-Enabled Ovens ', 'Smart Coffee Makers'] },
       ],
     },
   ]);

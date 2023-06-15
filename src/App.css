@@ -1,3 +1,6 @@
+.topics{
+  position: relative;
+}
 .blog .overall{
     width: 100%;
     position: relative;
@@ -183,8 +186,8 @@ button{
   border: 1px solid black;
 } */
 .yellow{
-  color: yellow;
-  border: 1px solid yellow;
+  color: #979711;
+  border: 1px solid #979711;
   border-radius: 100px;
 }
 .red{
@@ -228,7 +231,7 @@ button{
   font-weight: bold;
 }
 .topics_heading{
-  font-weight: bold;
+  font-weight: 600;
 }
 .hidden{
   display: none;
