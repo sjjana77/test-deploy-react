@@ -16,6 +16,7 @@ const Category = ({topics,setdisplaytopic})=>{
           }
         );
         selectedClass(e);
+        document.getElementById("open_add_dialog").classList="hidden";
         }} id='All'>All</span>
         <span onClick={(e)=>{setdisplaytopic(
           {
