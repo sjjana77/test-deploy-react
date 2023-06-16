@@ -9,7 +9,7 @@ const Topics = (category_id, category_name, category_topics,deleteTopic,setcurre
         }
       ]
     });
-    }
+    } 
     return (
       <div className='topics'><span className='recommend'>Recommended Topics</span> <br /><br />
       {
